@@ -5,6 +5,7 @@
 #and so on. To run the script, use python3 check_results.py input.txt
 #The result will be saved as a screenshot with the reg_no as the file name.
 #Needs selenium and python3 installed.
+##Captcha has to be manually entered. Wait for the script to fill in the regno and date, and then enter captcha.
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
