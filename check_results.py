@@ -24,9 +24,6 @@ def site_open():
 	driver.get('http://coe1.annauniv.edu');
 	wait(5)
 
-#email_ids= ['','fake@fake.com','tarun@herotalkies.com'];
-#passwords=['','fake','123thisisit'];
-
 regnos= [];
 dobs=[];
 def login(reg_no,dob):
